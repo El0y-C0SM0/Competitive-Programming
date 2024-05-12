@@ -1,0 +1,3 @@
+# Competitive Programing Notebooks
+
+Repositório dedicado a salvar minhas anotações sobre programação competitiva e os meus algoritmos. Você irá encontrar minhas anotações na pasta [notebooks](programação-competiviva-notebooks/notebooks), eles são feitos no formato de jupyter notebook mas com o kernel de c++ [xeus-cling](https://github.com/jupyter-xeus/xeus-cling). Meus algoritmos estão na pasta [algoritmos](/algoritmos).
