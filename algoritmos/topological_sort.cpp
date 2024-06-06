@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 
-#define endl '\n'
-
 using namespace std;
 
 vector<int> to; // vetor que irá receber os vertices ordenados
@@ -37,7 +35,7 @@ bool kahn(vector<vector<int>> &g, vector<int> &graus, vector<int> &vis) {
         to.push_back(x);
         vis[x] = 1;
         
-        for(int i : g[x]) if(!vis[i] && --graus[i]== 0)
+        for(int i : g[x]) if(!vis[i] && --graus[i] == 0)
             q.push(i);
     }
 

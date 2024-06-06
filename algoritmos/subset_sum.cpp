@@ -8,7 +8,7 @@ using namespace std;
 /// @param p vetor de pesos
 /// @param c alvo
 /// @return 1 se for possivel encontrar, 0 se não for
-bool subset_sum(const vector<int> &p, const int c) {
+bool subsetSum(const vector<int> &p, const int c) {
     int n = p.size();
     if(c < 0) return false;
 
@@ -32,7 +32,7 @@ bool subset_sum(const vector<int> &p, const int c) {
 /// @param c alvo
 /// @param s conjuto para receber os valores da soma
 /// @return 1 se for possivel encontrar, 0 se não for
-bool subset_sum(const vector<int> &p, const int c, set<int> &s) {
+bool subsetSum(const vector<int> &p, const int c, set<int> &s) {
     int n = p.size();
     if(c < 0) return false;
 
